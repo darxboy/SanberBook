@@ -1,88 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Registrasi</title>
-  </head>
-  <body>
-    <h1>Buat Account Baru !</h1>
 
-    <h3>Sign Up Form</h3>
+<head>
+  <meta charset="utf-8">
+  <title>Registrasi</title>
+</head>
 
-    <form action="welcome.html">
+<body>
+  <h1>Buat Account Baru !</h1>
+
+  <h3>Sign Up Form</h3>
+
+  <form action="welcome.html">
+    <div>
+      <label for="firstname">First Name: </label>
+      <input type="text" id="firstname" name="name" size="30">
+    </div>
+    <br>
+    <div>
+      <label for="lastname">Last Name: </label>
+      <input type="text" id="lastname" name="name" size="30">
+    </div>
+    <br>
+    <p>Gender:</p>
+
+    <div>
+      <input type="radio" id="Male" name="gender" value="Male" checked>
+      <label for="Male">Male</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Female" name="gender" value="Female">
+      <label for="Female">Female</label>
+    </div>
+
+    <div>
+      <input type="radio" id="Other" name="gender" value="Other">
+      <label for="Other">Other</label>
+    </div>
+
+    <p>Nationality:</p>
+    <div class="#">
+      <select id="Nationality">
+        <option value="">--Please choose an option--</option>
+        <option value="indonesia">Indonesia</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="singapure">Singapura</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="#">
+      <p>Language Spoken :</p>
       <div>
-        <label for="first name">First Name: </label>
-        <input type="text" id="firstname" name="name" size="30">
+        <input type="checkbox" id="indonesia" name="indonesia" checked>
+        <label for="indonesia">Bahasa Indonesia</label>
       </div>
-      <br>
       <div>
-        <label for="last name">Last Name: </label>
-        <input type="text" id="lastname" name="name" size="30">
+        <input type="checkbox" id="english" name="english" checked>
+        <label for="english">English</label>
       </div>
-      <br>
-      <p>Gender:</p>
-
       <div>
-        <input type="radio" id="Male" name="gender" value="Male"
-               checked>
-        <label for="Male">Male</label>
+        <input type="checkbox" id="other" name="other" checked>
+        <label for="other">Other</label>
       </div>
 
-      <div>
-        <input type="radio" id="Female" name="gender" value="Female">
-        <label for="Female">Female</label>
-      </div>
-
-      <div>
-        <input type="radio" id="Other" name="gender" value="Other">
-        <label for="Other">Other</label>
-      </div>
-
-      <p>Nationality:</p>
       <div class="#">
-        <select id="Nationality">
-          <option value="">--Please choose an option--</option>
-          <option value="indonesia">Indonesia</option>
-          <option value="malaysia">Malaysia</option>
-          <option value="singapure">Singapura</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-
-      <div class="#">
-        <p>Language Spoken :</p>
-        <div>
-          <input type="checkbox" id="indonesia" name="indonesia"
-             checked>
-          <label for="indonesia">Bahasa Indonesia</label>
-        </div>
-        <div>
-          <input type="checkbox" id="english" name="english"
-             checked>
-          <label for="english">English</label>
-        </div>
-        <div>
-          <input type="checkbox" id="other" name="other"
-             checked>
-          <label for="other">Other</label>
-        </div>
-
-        <div class="#">
-          <p>Bio :</p>
-          <textarea id="biografi name="biografi" rows="8" cols="40">
+        <p>Bio :</p>
+        <textarea id="biografi name=" biografi" rows="8" cols="40">
 
           </textarea>
-        </div>
-        <div>
-          <input type="submit" value="Sign Up"
-           accesskey="s">
-        </div>
-
       </div>
-    </form>
+      <div>
+        <input type="submit" value="Sign Up" accesskey="s">
+      </div>
+
+    </div>
+  </form>
 
 
 
 
-  </body>
+</body>
+
 </html>
