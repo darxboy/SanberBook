@@ -1,0 +1,94 @@
+body{
+  background-image: url("/Users/admin/Desktop/WebDevelopment/Tugas Sanbercode/Hari-2/public/img/pattern.jpg");
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+
+}
+
+header{
+  background-color:#F5F5F5;
+  position: sticky;
+  padding: 0;
+  top: 0;
+  margin: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+
+h1{
+  text-align: center;
+  font-weight: bold;
+}
+
+h5{
+  text-align: center;
+  color: white;
+
+}
+
+article{
+  justify-content: center;
+  border-bottom: 2px;
+  border-style: solid;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  float:right;
+  width: 100%;
+
+}
+
+
+
+nav li {
+  color: blue;
+  padding: 16px;
+  font-family: "Impact", Charcoal, sans-serif;
+  text-decoration: underline;
+  float:right;
+
+
+}
+
+nav logo{
+  margin-top: 50px;
+}
+
+footer{
+  background-color: black;
+  clear: both;
+  position: relative;
+  height: 40px;
+  margin-top: -40px;
+
+}
+
+#article-list{
+  justify-content: center;
+  background-color: white;
+  margin:50px;
+}
+
+p{
+  text-decoration: none;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+/*section{
+  display: block;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+
+}
