@@ -19,9 +19,8 @@
         */
         $kids = array("Mike", "Dustin", "Will","Lucas", "Max", "Eleven"); // Lengkapi di sini
         $adults = array("Hopper", "Nancy","Joyce", "Jonathan", "Murray");
-        echo "$kids[0]", "$kids[1]", "$kids[2]", "$kids[3]", "$kids[4]". "<br> <br>";
-        echo "$adults[0]", "$adults[1]", "$adults[2]", "$adults[3]","$adults[4]"."<br> <br>";
-        print_r($kids);
+       
+        print_r($kids); echo "<br>";
         print_r($adults);
 
         echo "<h3> Soal 2</h3>";
